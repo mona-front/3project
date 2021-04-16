@@ -1,0 +1,78 @@
+/*@media only screen and (max-width:360px) {
+
+}
+*/
+
+@media only screen and (min-width:360px) and (max-width:768px) {
+
+#header .content{
+	width:100%;
+	}
+
+#header .content h1{
+	font-size:24px;
+}
+#header .content .inner{
+	width:90%;
+ }
+#header .content .inner .desc{
+ 	font-size:11px;
+ 	width:100%;
+ }
+ #header nav ul{
+ 	width:30%;
+ 	display: block;
+ 	margin: -9% 33.5%;
+ }
+ #header nav ul li{
+ 	border-left: none;
+ 	border-bottom:  solid 1px #ffffff;
+ 	text-align: center;
+
+ }
+ #header nav ul li a{
+ 	padding: 0;
+ }
+  #header nav ul li:last-child{
+  	border-bottom: none;
+  }
+  #contact,
+	#about,
+	#intro,
+	#work
+{
+  	width:80%;
+  }
+  .contact-container{
+  	width:90%;
+  	padding-left:10px;
+  }
+  
+  .contact-container-input input,
+  .contact-container .contact-container-input  textarea
+  
+  {
+  	width:90%;
+  }
+  .contact-container button#send-massage,
+  .contact-container button#reset{
+  	width:97%;
+  }
+  .contact-container button#reset{
+  	margin-left: 0;
+  }
+  .contact-container-input  input[type=text]{
+margin-left:0;
+}
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+	#header nav ul{
+		width:68.6%;
+		margin:-6.7% 15.3%;
+	}
+	#header nav ul li a {
+		min-width:90px;
+		padding:0 16px;
+	}
+}
